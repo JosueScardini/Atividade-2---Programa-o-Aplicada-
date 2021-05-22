@@ -8,6 +8,19 @@ int qtdtrocas=0, vetorpalavra;
 string P1;
 string P2;
 P1= *palavra;
+vetorpalavra = P1.size();
+ 
+ for (int i=0; i<=vetorpalavra; i++){
+      if (P1[i] == L1){
+        P2[i]=L2;
+      }else{
+        P2[i]= P1[i];
+      }
+ qtdtrocas=qtdtrocas+1;
+ }
+  *palavranova= P2[vetorpalavra];
+  return qtdtrocas;
+}
 
 int main() {
 char L1, L2;
