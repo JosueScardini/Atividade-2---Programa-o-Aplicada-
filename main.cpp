@@ -36,5 +36,12 @@ cin>> L1;
 cout<< "Digite a letra que será colocada no lugar "<<endl;
 cin>>L2;
 
+int resultadofinal = troca(&palavra,L1, L2, &palavranova);
+
+cout<<"A palavra digitada é: "<<palavra<<endl;
+cout<<"A palavra modificada é: "<<P2<<endl;
+cout<<"A quantidade de trocas foi: "<<qtdtrocas<<endl;
+
+
 
 }
